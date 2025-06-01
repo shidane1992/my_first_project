@@ -1,6 +1,13 @@
 function Greeting (props) {
-    return <h1>hello, {props.name}{ props.surname}</h1>;
+    return(
+        <div>
+         <h1>
+            hello, {props.name}{ props.surname}
+            </h1>
+            <h2>this message was not there</h2>
     
+    </div>
+    );
 }
 
 export default Greeting
