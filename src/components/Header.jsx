@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"blue", padding:"10px"}}>
       <h1 >
        This is my first React Tutorial
       </h1>
