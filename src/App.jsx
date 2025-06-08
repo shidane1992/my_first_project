@@ -8,17 +8,21 @@ import  Inputer from "./components/Inputer";
 import { Tiriye } from "./components/Counter";
 import WelcomeMessage from "./components/WelcomeMessage";
 import Notification from "./components/Notification";
+import UserList from "./components/UserList";
+import NameForm from "./components/NameForm";
 function App() {
   return (
     <>
+      <Clicker />
       <ThemeToggle />
+      <UserList />
+      <NameForm />
       <Header />
       <Dashboard isLoggedIn={true} />
       <Inputer />
       <Greeting name="Abdinasir " surname="shidane" />
-      <Clicker />
       <WelcomeMessage isLoggedIn={true} />
-      <Notification hasNewMessages={true}/>;
+      <Notification hasNewMessages={true} />;
       <Tiriye />
     </>
   );
