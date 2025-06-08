@@ -1,6 +1,6 @@
 function Greeting (props) {
     return(
-        <div style={{backgroundColor:"black", Color:"white"}}>
+        <div style={{backgroundColor:"black", Color:"white" , padding:20}}>
          <h1>
             hello, {props.name}{ props.surname}
             </h1>
